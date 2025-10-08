@@ -20,15 +20,19 @@
      media = (n1 + n2 + n3) / 3;
      
      if (media < 4.0){
-         printf("Reprovado");
+         printf("Reprovado\n");
      }
      
      else if (media >= 4.0 && media < 7.0){
-         printf("Recuperação");
-     }
+         printf("Recuperação\n");
+         
+        float notafinal = 10.0 - media;
+         printf("A nota da recuperação precisa ser de no mínimo %.2f pontos.\n", notafinal);
+         
+          }
      
      else {
-         printf ("Aprovado");
+         printf ("Aprovado\n");
      }
      
      return 0;

@@ -18,5 +18,7 @@ int main(){
     montante = capital * pow(1 + juros / 100, anos);
     
     printf("O montante final após %i anos, será de R$%.2f reais", anos, montante);
+
+    return 0;
     
 }

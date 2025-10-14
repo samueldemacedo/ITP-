@@ -15,5 +15,7 @@ int main(){
     printf("%.1f graus Celsius.\n", celsius);
     printf("%.1f graus Fahrenheit.\n", fahrenheit);
     printf("%.1f graus Kelvin.", kelvin);
+
+    return 0;
     
     }

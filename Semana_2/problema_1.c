@@ -14,5 +14,7 @@ int main(){
     imc = peso / pow(altura,2);
     
     printf("Seu IMC é de: %.2f", imc);
+
+    return 0;
     
     }

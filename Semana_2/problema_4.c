@@ -27,5 +27,7 @@ int main(){
     printf("Produto = %i\n", prod);
     printf("Resto da divisão inteira = %i\n", resto);
     printf("Média aritmética = %.2f", media);
+
+    return 0;
     
 }
